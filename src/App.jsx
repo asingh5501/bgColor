@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Button from './components/Button'
-import SchedulerWithSundayHighlight from './components/CustomScheduleMeeting'
 
 function App() {
   const [counter, setCounter] = useState(10)
@@ -26,7 +25,6 @@ function App() {
 
   return (
     <div className='w-screen h-screen duration-200' style={{ backgroundColor: color }}>
-      <SchedulerWithSundayHighlight />
       <div className='justify-center'>
         <h1 className='text-black text-center'>Hello Counter!</h1>
         <h2 className='text-center text-white'>Counter Value: {counter}</h2>
